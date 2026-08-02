@@ -1,0 +1,43 @@
+# Add new items at the top and increase the index by one.
+# Dates use the YYYY-MM-DD format; HTML is supported in the content field.
+
+- date: "2026-07-16"
+  index: 10
+  content: 'Our paper titled <i>面向未来产业的技术预测分析——理论、方法与实践路径</i> has been accepted for publication in <strong>《技术经济》</strong>.'
+
+- date: "2026-06-24"
+  index: 9
+  content: 'I attended the <strong>Second Annual Conference on AI Economy &amp; Management</strong> at the PHBS Main Campus in Shenzhen, China.'
+
+- date: "2026-04-24"
+  index: 8
+  content: 'Our paper titled <i>Make-or-Buy in Digitalization: Constructing Digital Resources for Traditional Manufacturing Incumbents</i> has been accepted for presentation at the <strong>Strategic Management Society (SMS) 46th Annual Conference</strong> in Berlin.'
+
+- date: "2026-04-04"
+  index: 7
+  content: 'Our paper titled <i>Reconstructing Resources for Breakthrough Innovation: The Role of Divestiture–Acquisition Configurations Under Windows of Opportunity</i> has been accepted for publication in <strong>IEEE Transactions on Engineering Management</strong>.'
+
+- date: "2026-03-01"
+  index: 6
+  content: 'Our paper titled <i>动态能力视角下企业工艺创新路径——华恒生物的探索性案例研究</i> was published in <strong>《管理学报》</strong>.'
+
+- date: "2025-06-24"
+  index: 5
+  content: 'Our paper titled <i>关键核心技术识别：流程框架构建与未来研究展望</i> was published in <strong>《华东经济管理》</strong>.'
+
+- date: "2025-06-13"
+  index: 4
+  content: 'I presented an accepted paper at the <strong>11th Biennial Conference of the International Association for Chinese Management Research (IACMR 2025)</strong> in Xi’an, China.'
+
+- date: "2025-04-12"
+  index: 3
+  content: 'I presented an accepted paper at the <strong>3rd Annual Conference on China Innovation Development Policy and Management</strong> in Guangzhou, China.'
+
+- date: "2024-08-09"
+  index: 2
+  content: 'I attended the <strong>9th Qualitative Comparative Analysis (QCA) Methods Workshop</strong> and received training in QCA methods.'
+
+- date: "2024-04-12"
+  display_date: "Apr 12–14"
+  index: 1
+  content: 'I presented a paper at the <strong>8th International Symposium on Marketing Science and Innovation (MSI 2024)</strong> and received the <strong>Third Prize in the Best Paper Award</strong>.'

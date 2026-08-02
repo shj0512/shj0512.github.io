@@ -1,0 +1,31 @@
+{% assign outputs = include.outputs %}
+<div class="my-3 p-0 bg-white shadow-sm rounded-xl">
+    <h6 class="border-bottom border-gray p-3 mb-0">
+        {% if include.icon %}<i class="{{ include.icon }}"></i>{% endif %}
+        {{ include.title }}
+        {% if include.view_all %}
+        <a href="{{ 'publications' | relative_url }}">(view all <i class="fas fa-angle-double-right"></i>)</a>
+        {% endif %}
+    </h6>
+
+    {% for item in outputs limit:include.limit %}
+    <article class="research-output p-3 {% unless forloop.last %}border-bottom{% endunless %}">
+        <h5 class="mt-0 mb-1 font-weight-normal">{{ item.title }}</h5>
+        <p class="mt-0 mb-1 small text-body">{{ item.authors }}</p>
+        {% if item.venue or item.year or item.status %}
+        <p class="mt-0 mb-0 small text-muted">
+            {% if item.venue %}<i>{{ item.venue }}</i>{% endif %}
+            {% if item.year %}{% if item.venue %}, {% endif %}{{ item.year }}{% endif %}
+            {% if item.volume %}, {{ item.volume }}{% if item.issue %}({{ item.issue }}){% endif %}{% endif %}
+            {% if item.pages %}: {{ item.pages }}{% endif %}{% if item.venue or item.year %}.{% endif %}
+            {% if item.status %}<span class="text-dark"><strong>Status:</strong> {{ item.status }}</span>{% endif %}
+        </p>
+        {% endif %}
+        {% if item.doi_url %}
+        <p class="small mb-0">
+            <a href="{{ item.doi_url }}" target="_blank" rel="noopener noreferrer">[DOI: {{ item.doi }}]</a>
+        </p>
+        {% endif %}
+    </article>
+    {% endfor %}
+</div>

@@ -4,10 +4,12 @@ navbar_name: "Huijie SUN"
 
 positions:
 - name: Ph.D. Student
-- name: School of Management, University of Science and Technology of China
+- name: School of Management
+- name: University of Science and Technology of China
 
 email: "shj0512@mail.ustc.edu.cn"
 gscholar: "https://scholar.google.com/citations?hl=zh-CN&user=wbj84xkAAAAJ"
+cnki: "https://au.cnki.net/author/personalInfo/000075386672"
 github: shj0512
 
 # cv_link: /assets/files/cv.pdf
@@ -24,12 +26,24 @@ short_bio: >-
     and Technology of China (USTC). I am fortunate to be supervised by Prof. Zhiying
     Liu and Assistant Prof. Tianyu Hou. My research interests focus on innovation,
     digital transformation, and AI diffusion. Please feel free to contact me for
-    academic exchange or potential collaboration. You can also find my publications
-    on <a href="https://au.cnki.net/author/personalInfo/000075386672" target="_blank"
-    rel="noopener noreferrer">CNKI</a>.
+    academic exchange or potential collaboration.
   </p>
 
-# Add a portrait later by uploading an image and uncommenting this field.
-# portrait_url: /assets/images/photos/portrait.jpg
-# portrait_caption: >-
-#   Personal portrait.
+portrait_url: /assets/images/photos/portrait.jpg
+
+education:
+- name: University of Science and Technology of China
+  position: Ph.D. Student in Business Administration
+  date: 2022–present
+- name: Yantai University
+  position: B.A. in Marketing
+  date: 2018–2022
+
+awards:
+- name: Third Prize, Best Paper Award, The 8th International Symposium on Marketing Science and Innovation (MSI 2024)
+  date: 2024
+- name: Outstanding Graduate of Shandong Province
+  date: 2022
+
+academic_service:
+- name: "Conference reviewer: IACMR 2025"

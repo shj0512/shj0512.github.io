@@ -28,12 +28,13 @@ navbar_title: Home
         {% endif %}
 
         {% if site.data.display.homepage.show_selected_publications %}
-        {% assign pubs = site.publications | sort: "date" | reverse | where: "selected", true %}
-        {%
-        include widgets/publication_card.html
-        publications=pubs
-        title='<i class="fas fa-star"></i> Selected Publications'
-        %}
+        {% assign pubs = site.data.research_outputs.published %}
+        {% include widgets/research_output_list.html
+            outputs=pubs
+            title="Selected Publications"
+            icon="fas fa-star"
+            limit=4
+            view_all=true %}
         {% endif %}
     </div>
 </div>

@@ -8,6 +8,7 @@ published:
   year: "2026"
   volume: "73"
   pages: "2950 - 2961"
+  badge: "ABS 3, IF: 6.2"
   cover: "/assets/images/publications/2026-resource-configurations.png"
   links:
     Paper: "https://doi.org/10.1109/TEM.2026.3680309/mm1"
@@ -16,6 +17,7 @@ published:
   authors: "刘志迎，孙慧杰* (* corresponding author)"
   venue: "技术经济"
   year: "2026"
+  badge: "CSSCI, AMI扩展, 北大核心"
   cover: "/assets/images/publications/2026-technology-forecasting.png"
 
 - title: "动态能力视角下企业工艺创新路径——华恒生物的探索性案例研究"
@@ -25,6 +27,7 @@ published:
   volume: "23"
   issue: "1"
   pages: "13–21"
+  badge: "CSSCI, AMI核心, 北大核心"
   cover: "/assets/images/publications/2026-process-innovation.png"
   links:
     Paper: "https://doi.org/10.3969/j.issn.1672-884x.2026.01.002"
@@ -36,6 +39,7 @@ published:
   volume: "39"
   issue: "7"
   pages: "1–8, 137"
+  badge: "CSSCI, AMI扩展, 北大核心"
   cover: "/assets/images/publications/2025-core-technology-identification.png"
   links:
     Paper: "https://doi.org/10.19629/j.cnki.34-1014/f.250225016"

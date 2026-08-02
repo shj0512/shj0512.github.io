@@ -6,10 +6,12 @@ published:
   authors: "Sun, H., Zhou, Y., Zhou, Z., & Liu, Z."
   venue: "IEEE Transactions on Engineering Management"
   year: "2026"
+  volume: "73"
+  pages: "2950 - 2961"
 
 - title: "面向未来产业的技术预测分析——理论、方法与实践路径"
   authors: "刘志迎，孙慧杰*"
-  venue: "待刊"
+  venue: "技术经济"
   year: "2026"
 
 - title: "动态能力视角下企业工艺创新路径——华恒生物的探索性案例研究"
@@ -27,8 +29,6 @@ published:
   volume: "39"
   issue: "7"
   pages: "1–8, 137"
-  doi: "10.19629/j.cnki.34-1014/f.250225016"
-  doi_url: "https://doi.org/10.19629/j.cnki.34-1014/f.250225016"
 
 policy_reports:
 - title: "合肥打造全域场景创新之城研究"
@@ -38,7 +38,7 @@ policy_reports:
 
 working_papers:
 - title: "When Sole Actual Controllers Take Charge: Corporate Social Responsibility, Financial Risk and Artificial Intelligence Technology Innovation"
-  authors: "Ziyu Zhou; Huijie Sun; Zhiying Liu; Jiahui Liu; Yajing Li"
+  authors: "Ziyu Zhou; Huijie Sun; Zhiying Liu; Jiahui Liu; Yajing Li*"
   status: "Minor revision"
 
 - title: "Make-or-Buy in Digitalization: Constructing Digital Resources for Traditional Manufacturing Incumbents"
@@ -46,5 +46,5 @@ working_papers:
   status: "Scheduled for presentation at the SMS 46th Annual Conference, October 2026"
 
 - title: "Too Much of a Good Thing? Chief Technology Officers’ General Ability and Firm Innovation: Moderating Effects of AI and Gender Diversity"
-  authors: "Hang Yang; Huijie Sun; Zhiying Liu; Jialing Liu"
+  authors: "Hang Yang; Huijie Sun; Zhiying Liu; Jialing Liu*"
   status: "Under review"

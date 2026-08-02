@@ -1,3 +1,6 @@
+# Edit this file to maintain the Publications page.
+# Keep two spaces before each field under an item and begin each new item with "- title:".
+
 published:
 - title: "Reconstructing Resources for Breakthrough Innovation: The Role of Divestiture–Acquisition Configurations Under Windows of Opportunity"
   authors: "Sun, H., Zhou, Y., Zhou, Z., & Liu, Z."
@@ -30,7 +33,7 @@ published:
 policy_reports:
 - title: "合肥打造全域场景创新之城研究"
   authors: "刘志迎，孙慧杰，刘瑞超，杨鹏程，张红梅"
-  venue: "安徽社会发展报告（2024）"
+  venue: "安徽社会发展报告"
   year: "2024"
 
 working_papers:
@@ -38,21 +41,9 @@ working_papers:
   authors: "Ziyu Zhou; Huijie Sun; Zhiying Liu; Jiahui Liu; Yajing Li"
   status: "Minor revision"
 
-- title: "围绕创新链布局产业链的学术创业路径及机制——基于量子技术企业的多案例研究"
-  authors: "刘志迎；孙慧杰*；张晓凤；徐毅"
-  status: "Major revision"
-
 - title: "Make-or-Buy in Digitalization: Constructing Digital Resources for Traditional Manufacturing Incumbents"
   authors: "Huijie Sun; Y. Zhou*"
   status: "Scheduled for presentation at the SMS 46th Annual Conference, October 2026"
-
-- title: "Decoding the Opportunity–Capability Nexus: Causal Recipes for Technological Innovation"
-  authors: "Huijie Sun; Chong Yang*; Zhiying Liu"
-  status: "Minor revision"
-
-- title: "From Shadow to Spotlight: How Technological, Geographical, and Market Overlaps with Leading Firms Influence Non-Leading Firms’ Innovation"
-  authors: "Huijie Sun; Lei Gong; Zhiying Liu; Ziyu Zhou*"
-  status: "Minor revision"
 
 - title: "Too Much of a Good Thing? Chief Technology Officers’ General Ability and Firm Innovation: Moderating Effects of AI and Gender Diversity"
   authors: "Hang Yang; Huijie Sun; Zhiying Liu; Jialing Liu"

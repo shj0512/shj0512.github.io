@@ -8,11 +8,11 @@ body_attr: >-
 
 <div class="row">
     <div class="col-12 col-lg-10">
-        <section id="selected-publications" class="pt-2">
+        <section id="published-papers" class="pt-2">
             {% include widgets/research_output_list.html
                 outputs=site.data.research_outputs.published
-                title="Selected Publications"
-                icon="fas fa-star"
+                title="Published Papers"
+                icon="fas fa-book-open"
                 limit=100 %}
         </section>
 
@@ -35,7 +35,7 @@ body_attr: >-
 
     <div class="col-2 d-none d-lg-block">
         <div id="navbar-output" class="nav nav-pills flex-column sticky-top" style="top: 80px">
-            <a class="nav-link d-block" href="#selected-publications">Publications</a>
+            <a class="nav-link d-block" href="#published-papers">Published Papers</a>
             <a class="nav-link d-block" href="#policy-reports">Policy Report</a>
             <a class="nav-link d-block" href="#working-papers">Working Papers</a>
         </div>

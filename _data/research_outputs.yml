@@ -6,12 +6,8 @@ published:
   authors: "Huijie Sun, Chong Yang*, & Zhiying Liu (* corresponding author)"
   venue: "Asia Pacific Journal of Management"
   year: "2026"
-  volume: "1"
-  pages: "1"
   badge: "ABS 3, IF: 5.8"
-  cover: ""
-  links:
-    Paper: "1"
+  cover: "/assets/images/publications/2026-capability-opportunity-nexus.png"
 
 - title: "Reconstructing Resources for Breakthrough Innovation: The Role of Divestiture–Acquisition Configurations Under Windows of Opportunity"
   authors: "Huijie Sun, Yang Zhou*, Ziyu Zhou, & Zhiying Liu (* corresponding author)"
@@ -73,3 +69,4 @@ working_papers:
 - title: "Too Much of a Good Thing? Chief Technology Officers’ General Ability and Firm Innovation: Moderating Effects of AI and Gender Diversity"
   authors: "Hang Yang; Huijie Sun; Zhiying Liu; Jialing Liu*"
   status: "Under review"
+

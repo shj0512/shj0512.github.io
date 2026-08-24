@@ -21,10 +21,7 @@
                 <p class="mt-0 mb-1 small text-body">{{ item.authors }}</p>
                 {% if item.venue or item.year or item.status %}
                 <p class="mt-0 mb-0 small text-muted">
-                    {% if item.venue %}<i>{{ item.venue }}</i>{% endif %}
-                    {% if item.year %}{% if item.venue %}, {% endif %}{{ item.year }}{% endif %}
-                    {% if item.volume %}, {{ item.volume }}{% if item.issue %}({{ item.issue }}){% endif %}{% endif %}
-                    {% if item.pages %}: {{ item.pages }}{% endif %}{% if item.venue or item.year %}.{% endif %}
+                    {% if item.venue %}<i>{{ item.venue }}</i>{% endif %}{% if item.year %}{% if item.venue %}, {% endif %}{{ item.year }}{% endif %}{% if item.volume %}, {{ item.volume }}{% if item.issue %}({{ item.issue }}){% endif %}{% endif %}{% if item.pages %}: {{ item.pages }}{% endif %}{% if item.venue or item.year %}.{% endif %}
                     {% if item.badge %}<span class="badge badge-pill badge-publication badge-success">{{ item.badge }}</span>{% endif %}
                     {% if item.status %}<span class="text-dark"><strong>Status:</strong> {{ item.status }}</span>{% endif %}
                 </p>

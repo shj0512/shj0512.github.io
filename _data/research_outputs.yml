@@ -2,6 +2,17 @@
 # Keep two spaces before each field under an item and begin each new item with "- title:".
 
 published:
+- title: "Decoding the Capability–Opportunity Nexus: Causal Recipes for Technological Innovation"
+  authors: "Huijie Sun, Chong Yang*, & Zhiying Liu (* corresponding author)"
+  venue: "Asia Pacific Journal of Management"
+  year: "2026"
+  volume: ""
+  pages: ""
+  badge: "ABS 3, IF: 5.8"
+  cover: ""
+  links:
+    Paper: ""
+
 - title: "Reconstructing Resources for Breakthrough Innovation: The Role of Divestiture–Acquisition Configurations Under Windows of Opportunity"
   authors: "Huijie Sun, Yang Zhou*, Ziyu Zhou, & Zhiying Liu (* corresponding author)"
   venue: "IEEE Transactions on Engineering Management"

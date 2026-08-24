@@ -1,5 +1,8 @@
 # Add new items at the top and increase the index by one.
 # Dates use the YYYY-MM-DD format; HTML is supported in the content field.
+- date: "2026-08-24"
+  index: 11
+  content: My first-author paper titled <i>Decoding the Capability–Opportunity Nexus: Causal Recipes for Technological Innovation</i> has been accepted for publication in <strong>Asia Pacific Journal of Management</strong>.'
 
 - date: "2026-07-16"
   index: 10

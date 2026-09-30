@@ -24,8 +24,13 @@ published:
   authors: "刘志迎，孙慧杰* (* corresponding author)"
   venue: "技术经济"
   year: "2026"
+  volume: "45"
+  issue: "9"
+  pages: "13–28"
   badge: "CSSCI, AMI扩展, 北大核心"
   cover: "/assets/images/publications/2026-technology-forecasting.png"
+  links:
+    Paper: "https://doi.org/10.12404/j.issn.1002-980X.J26062610"
 
 - title: "动态能力视角下企业工艺创新路径——华恒生物的探索性案例研究"
   authors: "刘志迎，赵蕊，孙慧杰"

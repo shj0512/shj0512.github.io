@@ -1,5 +1,9 @@
 # Add new items at the top and increase the index by one.
 # Dates use the YYYY-MM-DD format; HTML is supported in the content field.
+- date: "2026-10-18"
+  index: 12
+  content: 'I am attending the <strong>Strategic Management Society (SMS) 46th Annual Conference</strong> in Berlin, Germany (October 17–20, 2026), where my first-author paper titled <i>Make-or-Buy in Digitalization: Constructing Digital Resources for Traditional Manufacturing Incumbents</i> has been accepted for presentation.'
+
 - date: "2026-08-24"
   index: 11
   content: My first-author paper titled <i>Decoding the Capability–Opportunity Nexus: Causal Recipes for Technological Innovation</i> has been accepted for publication in <strong>Asia Pacific Journal of Management</strong>.

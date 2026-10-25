@@ -1,8 +1,8 @@
 # academic-homepage
 
-## 维护 Photos & Notes（照片与笔记）
+## 维护 Reflections（学术感悟）
 
-访问 `/sharing/`，或点击导航栏中的 **Photos & Notes**。此页面按日期倒序展示内容，支持按照片或笔记筛选；不需要照片也可以单独发布笔记。
+访问 `/sharing/`，或点击导航栏中的 **Reflections**。此页面按日期倒序展示内容，支持按照片或笔记筛选；不需要照片也可以单独发布笔记。
 
 1. 在 `_sharing/` 新增 `YYYY-MM-DD-short-title.md` 文件。
 2. 如需分享照片，先将图片上传到 `assets/images/sharing/`，再填写下方的 `photos` 列表。每张照片填写准确的 `alt` 描述；`caption` 为可选说明。

@@ -2,7 +2,7 @@
 # Dates use the YYYY-MM-DD format; HTML is supported in the content field.
 - date: "2026-10-18"
   index: 12
-  content: 'I attended the <strong>Strategic Management Society (SMS) 46th Annual Conference</strong> in Berlin, Germany (October 17–20, 2026). My first-author paper, <i>Make-or-Buy in Digitalization: Constructing Digital Resources for Traditional Manufacturing Incumbents</i>, was accepted for presentation at the conference.'
+  content: 'I attended the <strong>Strategic Management Society (SMS) 46th Annual Conference</strong> in Berlin, Germany (October 17–20, 2026), and I met so many interesting new friends!'
 
 - date: "2026-08-24"
   index: 11

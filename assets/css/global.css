@@ -128,3 +128,131 @@ div.lazy {
 .email-text {
     font-family: Source Code Pro, monospace;
 }
+
+/* Personal photos and notes. */
+.sharing-page {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.sharing-eyebrow {
+    color: #526575;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+.sharing-heading h1 {
+    font-size: clamp(2rem, 5vw, 2.75rem);
+}
+
+.sharing-heading > p:last-child {
+    font-size: 1.1rem;
+}
+
+.sharing-filters,
+.sharing-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.65rem;
+}
+
+.sharing-page [hidden] {
+    display: none !important;
+}
+
+.sharing-filter {
+    padding: 0.5rem 1rem;
+    border: 1px solid #cbd3da;
+    border-radius: 2rem;
+    background: #fff;
+    color: #344452;
+    font: inherit;
+    cursor: pointer;
+}
+
+.sharing-filter span {
+    margin-left: 0.3rem;
+    font-size: 0.85em;
+}
+
+.sharing-filter[aria-pressed="true"] {
+    background: #233e53;
+    border-color: #233e53;
+    color: #fff;
+}
+
+.sharing-filter:hover {
+    border-color: #233e53;
+}
+
+.sharing-filter:focus-visible,
+.sharing-entry a:focus-visible {
+    outline: 3px solid #2177aa;
+    outline-offset: 3px;
+}
+
+.sharing-entry {
+    margin-bottom: 1.5rem;
+    scroll-margin-top: 6rem;
+    overflow-wrap: anywhere;
+}
+
+.sharing-meta {
+    gap: 0.6rem 1rem;
+    color: #596773;
+}
+
+.sharing-category {
+    padding: 0.25rem 0.65rem;
+    border-radius: 0.35rem;
+    color: #314d62;
+    background: #edf2f5;
+    font-weight: 700;
+}
+
+.sharing-entry-title,
+.sharing-entry-title:hover {
+    color: #233e53;
+}
+
+.sharing-note {
+    line-height: 1.8;
+}
+
+.sharing-note > :last-child {
+    margin-bottom: 0;
+}
+
+.sharing-note img {
+    max-width: 100%;
+    height: auto;
+}
+
+.sharing-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
+    gap: 1.25rem;
+}
+
+.sharing-gallery a {
+    display: block;
+    border-radius: 0.6rem;
+}
+
+.sharing-gallery img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 0.6rem;
+    background: #edf2f5;
+}
+
+.sharing-empty-icon {
+    color: #60788b;
+    font-size: 2rem;
+}
+

@@ -1,5 +1,40 @@
 # academic-homepage
 
+## 维护 Photos & Notes（照片与笔记）
+
+访问 `/sharing/`，或点击导航栏中的 **Photos & Notes**。此页面按日期倒序展示内容，支持按照片或笔记筛选；不需要照片也可以单独发布笔记。
+
+1. 在 `_sharing/` 新增 `YYYY-MM-DD-short-title.md` 文件。
+2. 如需分享照片，先将图片上传到 `assets/images/sharing/`，再填写下方的 `photos` 列表。每张照片填写准确的 `alt` 描述；`caption` 为可选说明。
+3. 提交到 `main` 后，由现有 GitHub Pages 流程发布。网页上的筛选按钮用于浏览，内容通过仓库维护。
+
+笔记示例（可以写中文或英文）：
+
+```markdown
+---
+title: "我的笔记标题"
+date: "2026-10-25"
+share_id: my-note
+kind: note
+category: Research
+location: "Hefei, China"
+photos: []
+---
+
+在这里写笔记正文，支持 **Markdown**。
+```
+
+照片可以添加到同一篇笔记中，也可以用 `kind: photo` 发布独立相册。将 `photos: []` 替换为以下结构，并改为实际上传的文件名：
+
+```yaml
+photos:
+  - src: /assets/images/sharing/my-photo.jpg
+    alt: "照片内容的准确描述"
+    caption: "可选的照片说明"
+```
+
+`share_id` 应使用不重复的英文字母、数字及连字符。`kind: note` 的条目出现在 Notes 筛选中；任何包含照片的条目都会出现在 Photos 筛选中。日期使用 `YYYY-MM-DD`，`location` 和 `category` 可省略。
+
 [![Preview](assets/images/etc/preview.png)](https://luost26.github.io/academic-homepage/)
 
 [![pages-build-deployment](https://github.com/luost26/academic-homepage/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/luost26/academic-homepage/actions/workflows/pages/pages-build-deployment)
@@ -85,4 +120,5 @@ If you run into **any** issues while using this template, or have suggestions fo
 2. Go to the repository settings and enable GitHub Pages. Detailed instructions can be found [here](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site).
 
 3. Navigate to your created website, and follow the instructions displayed on the homepage (if any) to finalize the setup.
+
 

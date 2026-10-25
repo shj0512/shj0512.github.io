@@ -2,7 +2,7 @@
 # Dates use the YYYY-MM-DD format; HTML is supported in the content field.
 - date: "2026-10-18"
   index: 12
-  content: 'I am attending the <strong>Strategic Management Society (SMS) 46th Annual Conference</strong> in Berlin, Germany (October 17–20, 2026), where my first-author paper titled <i>Make-or-Buy in Digitalization: Constructing Digital Resources for Traditional Manufacturing Incumbents</i> has been accepted for presentation.'
+  content: 'I attended the <strong>Strategic Management Society (SMS) 46th Annual Conference</strong> in Berlin, Germany (October 17–20, 2026). My first-author paper, <i>Make-or-Buy in Digitalization: Constructing Digital Resources for Traditional Manufacturing Incumbents</i>, was accepted for presentation at the conference.'
 
 - date: "2026-08-24"
   index: 11
@@ -18,7 +18,7 @@
 
 - date: "2026-04-24"
   index: 8
-  content: 'My first-author paper titled <i>Make-or-Buy in Digitalization: Constructing Digital Resources for Traditional Manufacturing Incumbents</i> has been accepted for presentation at the <strong>Strategic Management Society (SMS) 46th Annual Conference</strong> in Berlin.'
+  content: 'My first-author paper titled <i>Make-or-Buy in Digitalization: Constructing Digital Resources for Traditional Manufacturing Incumbents</i> was accepted for presentation at the <strong>Strategic Management Society (SMS) 46th Annual Conference</strong> in Berlin.'
 
 - date: "2026-04-04"
   index: 7
@@ -48,3 +48,4 @@
   display_date: "Apr 12–14"
   index: 1
   content: 'I presented a paper at the <strong>8th International Symposium on Marketing Science and Innovation (MSI 2024)</strong> and received the <strong>Third Prize in the Best Paper Award</strong>.'
+

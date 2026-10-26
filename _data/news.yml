@@ -1,5 +1,9 @@
 # Add new items at the top and increase the index by one.
 # Dates use the YYYY-MM-DD format; HTML is supported in the content field.
+- date: "2026-10-23"
+  index: 13
+  content: 'I released <a href="https://github.com/shj0512/Umediation/releases/tag/v1.0.0"><strong>Umediation v1.0.0</strong></a>, a Stata 17+ package for nonlinear mediation analysis that estimates local indirect effects when the independent variable has a quadratic relationship with the mediator. Installation instructions and downloads are available on the release page. I welcome discussion, feedback, and contributions to help improve future versions!'
+
 - date: "2026-10-18"
   index: 12
   content: 'I attended the <strong>Strategic Management Society (SMS) 46th Annual Conference</strong> in Berlin, Germany (October 17–20, 2026), and I met so many interesting new friends!'

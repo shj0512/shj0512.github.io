@@ -2,7 +2,7 @@
 # Dates use the YYYY-MM-DD format; HTML is supported in the content field.
 - date: "2026-11-10"
   index: 14
-  content: 'Our co-authored paper titled <i>围绕创新链布局产业链的学术创业路径及机制——基于量子技术企业的多案例研究</i> has been accepted for publication in <strong>《管理案例研究与评论》</strong>!'
+  content: 'Our co-authored paper titled <i>围绕创新链布局产业链的学术创业路径及机制——基于量子技术企业的多案例研究</i> has been accepted for publication in <strong>《管理案例研究与评论》</strong>! See the <a href="https://shj0512.github.io/paperflow-hub/#projects">research progress</a>.'
 
 - date: "2026-10-23"
   index: 13

@@ -2,6 +2,12 @@
 # Keep two spaces before each field under an item and begin each new item with "- title:".
 
 published:
+- title: "围绕创新链布局产业链的学术创业路径及机制——基于量子技术企业的多案例研究"
+  authors: "刘志迎，孙慧杰，张晓凤，徐毅"
+  cover: "/assets/images/publications/academic-entrepreneurship-quantum-cases.png"
+  links:
+    Figure: "/assets/images/publications/academic-entrepreneurship-quantum-cases.png"
+
 - title: "Decoding the Capability–Opportunity Nexus: Causal Recipes for Technological Innovation"
   authors: "Huijie Sun, Chong Yang*, & Zhiying Liu (* corresponding author)"
   venue: "Asia Pacific Journal of Management"
